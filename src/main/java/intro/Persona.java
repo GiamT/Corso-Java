@@ -5,7 +5,7 @@ public class Persona {
     private int eta;
     private String professione;
 
-    public Persona(String nome, int eta, String professione) {
+    public Persona(String nome, int eta) {
         this.nome = nome;
         this.eta = eta;
         this.professione = professione;
@@ -52,7 +52,7 @@ public class Persona {
     }
 
     public static void main(String[] args) {
-        Persona persona = new Persona("Mario Rossi", 30, "Ingegnere");
+        Persona persona = new Persona("Mario Rossi", 30);
         persona.presentati();
     }
 }
